@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20515AC81D8E27130053B567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515AC71D8E27130053B567 /* main.m */; };
+		20515ACB1D8E27130053B567 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515ACA1D8E27130053B567 /* AppDelegate.m */; };
+		20515ACE1D8E27130053B567 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515ACD1D8E27130053B567 /* ViewController.m */; };
+		20515AD11D8E27130053B567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20515ACF1D8E27130053B567 /* Main.storyboard */; };
+		20515AD31D8E27130053B567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20515AD21D8E27130053B567 /* Assets.xcassets */; };
+		20515AD61D8E27130053B567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20515AD41D8E27130053B567 /* LaunchScreen.storyboard */; };
+		20515AE11D8E27130053B567 /* MALPhotoSelecterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515AE01D8E27130053B567 /* MALPhotoSelecterTests.m */; };
+		20515AEC1D8E27130053B567 /* MALPhotoSelecterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515AEB1D8E27130053B567 /* MALPhotoSelecterUITests.m */; };
+		20515B001D8E27E50053B567 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515AFF1D8E27E50053B567 /* PhotoViewController.m */; };
+		20515B311D8E35EC0053B567 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515B201D8E35EC0053B567 /* CGGeometry+RSKImageCropper.m */; };
+		20515B321D8E35EC0053B567 /* RSKImageCropperStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20515B231D8E35EC0053B567 /* RSKImageCropperStrings.bundle */; };
+		20515B331D8E35EC0053B567 /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515B261D8E35EC0053B567 /* RSKImageCropViewController.m */; };
+		20515B341D8E35EC0053B567 /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515B281D8E35EC0053B567 /* RSKImageScrollView.m */; };
+		20515B351D8E35EC0053B567 /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515B2A1D8E35EC0053B567 /* RSKInternalUtility.m */; };
+		20515B361D8E35EC0053B567 /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515B2C1D8E35EC0053B567 /* RSKTouchView.m */; };
+		20515B371D8E35EC0053B567 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515B2E1D8E35EC0053B567 /* UIApplication+RSKImageCropper.m */; };
+		20515B381D8E35EC0053B567 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515B301D8E35EC0053B567 /* UIImage+RSKImageCropper.m */; };
+		20515E261D8E83830053B567 /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20515E251D8E83830053B567 /* UIImage+Circle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20515ADD1D8E27130053B567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20515ABB1D8E27130053B567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20515AC21D8E27130053B567;
+			remoteInfo = MALPhotoSelecter;
+		};
+		20515AE81D8E27130053B567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20515ABB1D8E27130053B567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20515AC21D8E27130053B567;
+			remoteInfo = MALPhotoSelecter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20515AC31D8E27130053B567 /* MALPhotoSelecter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MALPhotoSelecter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20515AC71D8E27130053B567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20515AC91D8E27130053B567 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20515ACA1D8E27130053B567 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20515ACC1D8E27130053B567 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20515ACD1D8E27130053B567 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20515AD01D8E27130053B567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20515AD21D8E27130053B567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20515AD51D8E27130053B567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20515AD71D8E27130053B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20515ADC1D8E27130053B567 /* MALPhotoSelecterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MALPhotoSelecterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20515AE01D8E27130053B567 /* MALPhotoSelecterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MALPhotoSelecterTests.m; sourceTree = "<group>"; };
+		20515AE21D8E27130053B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20515AE71D8E27130053B567 /* MALPhotoSelecterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MALPhotoSelecterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20515AEB1D8E27130053B567 /* MALPhotoSelecterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MALPhotoSelecterUITests.m; sourceTree = "<group>"; };
+		20515AED1D8E27130053B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20515AFE1D8E27E50053B567 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		20515AFF1D8E27E50053B567 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		20515B1F1D8E35EC0053B567 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
+		20515B201D8E35EC0053B567 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
+		20515B211D8E35EC0053B567 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		20515B221D8E35EC0053B567 /* RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropper.h; sourceTree = "<group>"; };
+		20515B231D8E35EC0053B567 /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
+		20515B241D8E35EC0053B567 /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
+		20515B251D8E35EC0053B567 /* RSKImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropViewController.h; sourceTree = "<group>"; };
+		20515B261D8E35EC0053B567 /* RSKImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageCropViewController.m; sourceTree = "<group>"; };
+		20515B271D8E35EC0053B567 /* RSKImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageScrollView.h; sourceTree = "<group>"; };
+		20515B281D8E35EC0053B567 /* RSKImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageScrollView.m; sourceTree = "<group>"; };
+		20515B291D8E35EC0053B567 /* RSKInternalUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKInternalUtility.h; sourceTree = "<group>"; };
+		20515B2A1D8E35EC0053B567 /* RSKInternalUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKInternalUtility.m; sourceTree = "<group>"; };
+		20515B2B1D8E35EC0053B567 /* RSKTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKTouchView.h; sourceTree = "<group>"; };
+		20515B2C1D8E35EC0053B567 /* RSKTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKTouchView.m; sourceTree = "<group>"; };
+		20515B2D1D8E35EC0053B567 /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
+		20515B2E1D8E35EC0053B567 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
+		20515B2F1D8E35EC0053B567 /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
+		20515B301D8E35EC0053B567 /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
+		20515E241D8E83830053B567 /* UIImage+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Circle.h"; sourceTree = "<group>"; };
+		20515E251D8E83830053B567 /* UIImage+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20515AC01D8E27130053B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20515AD91D8E27130053B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20515AE41D8E27130053B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20515ABA1D8E27130053B567 = {
+			isa = PBXGroup;
+			children = (
+				20515AC51D8E27130053B567 /* MALPhotoSelecter */,
+				20515ADF1D8E27130053B567 /* MALPhotoSelecterTests */,
+				20515AEA1D8E27130053B567 /* MALPhotoSelecterUITests */,
+				20515AC41D8E27130053B567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20515AC41D8E27130053B567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20515AC31D8E27130053B567 /* MALPhotoSelecter.app */,
+				20515ADC1D8E27130053B567 /* MALPhotoSelecterTests.xctest */,
+				20515AE71D8E27130053B567 /* MALPhotoSelecterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20515AC51D8E27130053B567 /* MALPhotoSelecter */ = {
+			isa = PBXGroup;
+			children = (
+				20515AFD1D8E27630053B567 /* PhotoSelecter */,
+				20515AC91D8E27130053B567 /* AppDelegate.h */,
+				20515ACA1D8E27130053B567 /* AppDelegate.m */,
+				20515ACC1D8E27130053B567 /* ViewController.h */,
+				20515ACD1D8E27130053B567 /* ViewController.m */,
+				20515ACF1D8E27130053B567 /* Main.storyboard */,
+				20515AD21D8E27130053B567 /* Assets.xcassets */,
+				20515AD41D8E27130053B567 /* LaunchScreen.storyboard */,
+				20515AD71D8E27130053B567 /* Info.plist */,
+				20515AC61D8E27130053B567 /* Supporting Files */,
+			);
+			path = MALPhotoSelecter;
+			sourceTree = "<group>";
+		};
+		20515AC61D8E27130053B567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20515AC71D8E27130053B567 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20515ADF1D8E27130053B567 /* MALPhotoSelecterTests */ = {
+			isa = PBXGroup;
+			children = (
+				20515AE01D8E27130053B567 /* MALPhotoSelecterTests.m */,
+				20515AE21D8E27130053B567 /* Info.plist */,
+			);
+			path = MALPhotoSelecterTests;
+			sourceTree = "<group>";
+		};
+		20515AEA1D8E27130053B567 /* MALPhotoSelecterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20515AEB1D8E27130053B567 /* MALPhotoSelecterUITests.m */,
+				20515AED1D8E27130053B567 /* Info.plist */,
+			);
+			path = MALPhotoSelecterUITests;
+			sourceTree = "<group>";
+		};
+		20515AFD1D8E27630053B567 /* PhotoSelecter */ = {
+			isa = PBXGroup;
+			children = (
+				20515B1E1D8E35EC0053B567 /* RSKImageCropper */,
+				20515AFE1D8E27E50053B567 /* PhotoViewController.h */,
+				20515AFF1D8E27E50053B567 /* PhotoViewController.m */,
+				20515E241D8E83830053B567 /* UIImage+Circle.h */,
+				20515E251D8E83830053B567 /* UIImage+Circle.m */,
+			);
+			path = PhotoSelecter;
+			sourceTree = "<group>";
+		};
+		20515B1E1D8E35EC0053B567 /* RSKImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				20515B1F1D8E35EC0053B567 /* CGGeometry+RSKImageCropper.h */,
+				20515B201D8E35EC0053B567 /* CGGeometry+RSKImageCropper.m */,
+				20515B211D8E35EC0053B567 /* module.modulemap */,
+				20515B221D8E35EC0053B567 /* RSKImageCropper.h */,
+				20515B231D8E35EC0053B567 /* RSKImageCropperStrings.bundle */,
+				20515B241D8E35EC0053B567 /* RSKImageCropViewController+Protected.h */,
+				20515B251D8E35EC0053B567 /* RSKImageCropViewController.h */,
+				20515B261D8E35EC0053B567 /* RSKImageCropViewController.m */,
+				20515B271D8E35EC0053B567 /* RSKImageScrollView.h */,
+				20515B281D8E35EC0053B567 /* RSKImageScrollView.m */,
+				20515B291D8E35EC0053B567 /* RSKInternalUtility.h */,
+				20515B2A1D8E35EC0053B567 /* RSKInternalUtility.m */,
+				20515B2B1D8E35EC0053B567 /* RSKTouchView.h */,
+				20515B2C1D8E35EC0053B567 /* RSKTouchView.m */,
+				20515B2D1D8E35EC0053B567 /* UIApplication+RSKImageCropper.h */,
+				20515B2E1D8E35EC0053B567 /* UIApplication+RSKImageCropper.m */,
+				20515B2F1D8E35EC0053B567 /* UIImage+RSKImageCropper.h */,
+				20515B301D8E35EC0053B567 /* UIImage+RSKImageCropper.m */,
+			);
+			path = RSKImageCropper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20515AC21D8E27130053B567 /* MALPhotoSelecter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20515AF01D8E27130053B567 /* Build configuration list for PBXNativeTarget "MALPhotoSelecter" */;
+			buildPhases = (
+				20515ABF1D8E27130053B567 /* Sources */,
+				20515AC01D8E27130053B567 /* Frameworks */,
+				20515AC11D8E27130053B567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MALPhotoSelecter;
+			productName = MALPhotoSelecter;
+			productReference = 20515AC31D8E27130053B567 /* MALPhotoSelecter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20515ADB1D8E27130053B567 /* MALPhotoSelecterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20515AF31D8E27130053B567 /* Build configuration list for PBXNativeTarget "MALPhotoSelecterTests" */;
+			buildPhases = (
+				20515AD81D8E27130053B567 /* Sources */,
+				20515AD91D8E27130053B567 /* Frameworks */,
+				20515ADA1D8E27130053B567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20515ADE1D8E27130053B567 /* PBXTargetDependency */,
+			);
+			name = MALPhotoSelecterTests;
+			productName = MALPhotoSelecterTests;
+			productReference = 20515ADC1D8E27130053B567 /* MALPhotoSelecterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20515AE61D8E27130053B567 /* MALPhotoSelecterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20515AF61D8E27130053B567 /* Build configuration list for PBXNativeTarget "MALPhotoSelecterUITests" */;
+			buildPhases = (
+				20515AE31D8E27130053B567 /* Sources */,
+				20515AE41D8E27130053B567 /* Frameworks */,
+				20515AE51D8E27130053B567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20515AE91D8E27130053B567 /* PBXTargetDependency */,
+			);
+			name = MALPhotoSelecterUITests;
+			productName = MALPhotoSelecterUITests;
+			productReference = 20515AE71D8E27130053B567 /* MALPhotoSelecterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20515ABB1D8E27130053B567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mal;
+				TargetAttributes = {
+					20515AC21D8E27130053B567 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8VGDP5336E;
+						ProvisioningStyle = Automatic;
+					};
+					20515ADB1D8E27130053B567 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20515AC21D8E27130053B567;
+					};
+					20515AE61D8E27130053B567 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20515AC21D8E27130053B567;
+					};
+				};
+			};
+			buildConfigurationList = 20515ABE1D8E27130053B567 /* Build configuration list for PBXProject "MALPhotoSelecter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20515ABA1D8E27130053B567;
+			productRefGroup = 20515AC41D8E27130053B567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20515AC21D8E27130053B567 /* MALPhotoSelecter */,
+				20515ADB1D8E27130053B567 /* MALPhotoSelecterTests */,
+				20515AE61D8E27130053B567 /* MALPhotoSelecterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20515AC11D8E27130053B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20515AD61D8E27130053B567 /* LaunchScreen.storyboard in Resources */,
+				20515B321D8E35EC0053B567 /* RSKImageCropperStrings.bundle in Resources */,
+				20515AD31D8E27130053B567 /* Assets.xcassets in Resources */,
+				20515AD11D8E27130053B567 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20515ADA1D8E27130053B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20515AE51D8E27130053B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20515ABF1D8E27130053B567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20515B351D8E35EC0053B567 /* RSKInternalUtility.m in Sources */,
+				20515E261D8E83830053B567 /* UIImage+Circle.m in Sources */,
+				20515ACE1D8E27130053B567 /* ViewController.m in Sources */,
+				20515B341D8E35EC0053B567 /* RSKImageScrollView.m in Sources */,
+				20515B311D8E35EC0053B567 /* CGGeometry+RSKImageCropper.m in Sources */,
+				20515B001D8E27E50053B567 /* PhotoViewController.m in Sources */,
+				20515B371D8E35EC0053B567 /* UIApplication+RSKImageCropper.m in Sources */,
+				20515B331D8E35EC0053B567 /* RSKImageCropViewController.m in Sources */,
+				20515B361D8E35EC0053B567 /* RSKTouchView.m in Sources */,
+				20515ACB1D8E27130053B567 /* AppDelegate.m in Sources */,
+				20515AC81D8E27130053B567 /* main.m in Sources */,
+				20515B381D8E35EC0053B567 /* UIImage+RSKImageCropper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20515AD81D8E27130053B567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20515AE11D8E27130053B567 /* MALPhotoSelecterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20515AE31D8E27130053B567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20515AEC1D8E27130053B567 /* MALPhotoSelecterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20515ADE1D8E27130053B567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20515AC21D8E27130053B567 /* MALPhotoSelecter */;
+			targetProxy = 20515ADD1D8E27130053B567 /* PBXContainerItemProxy */;
+		};
+		20515AE91D8E27130053B567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20515AC21D8E27130053B567 /* MALPhotoSelecter */;
+			targetProxy = 20515AE81D8E27130053B567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20515ACF1D8E27130053B567 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20515AD01D8E27130053B567 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20515AD41D8E27130053B567 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20515AD51D8E27130053B567 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20515AEE1D8E27130053B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20515AEF1D8E27130053B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20515AF11D8E27130053B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VGDP5336E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MALPhotoSelecter/PhotoSelecter",
+				);
+				INFOPLIST_FILE = MALPhotoSelecter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haowai.MALPhotoSelecter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20515AF21D8E27130053B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VGDP5336E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MALPhotoSelecter/PhotoSelecter",
+				);
+				INFOPLIST_FILE = MALPhotoSelecter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haowai.MALPhotoSelecter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20515AF41D8E27130053B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MALPhotoSelecterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haowai.MALPhotoSelecterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MALPhotoSelecter.app/MALPhotoSelecter";
+			};
+			name = Debug;
+		};
+		20515AF51D8E27130053B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MALPhotoSelecterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haowai.MALPhotoSelecterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MALPhotoSelecter.app/MALPhotoSelecter";
+			};
+			name = Release;
+		};
+		20515AF71D8E27130053B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MALPhotoSelecterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haowai.MALPhotoSelecterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MALPhotoSelecter;
+			};
+			name = Debug;
+		};
+		20515AF81D8E27130053B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MALPhotoSelecterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = haowai.MALPhotoSelecterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MALPhotoSelecter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20515ABE1D8E27130053B567 /* Build configuration list for PBXProject "MALPhotoSelecter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20515AEE1D8E27130053B567 /* Debug */,
+				20515AEF1D8E27130053B567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20515AF01D8E27130053B567 /* Build configuration list for PBXNativeTarget "MALPhotoSelecter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20515AF11D8E27130053B567 /* Debug */,
+				20515AF21D8E27130053B567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20515AF31D8E27130053B567 /* Build configuration list for PBXNativeTarget "MALPhotoSelecterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20515AF41D8E27130053B567 /* Debug */,
+				20515AF51D8E27130053B567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20515AF61D8E27130053B567 /* Build configuration list for PBXNativeTarget "MALPhotoSelecterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20515AF71D8E27130053B567 /* Debug */,
+				20515AF81D8E27130053B567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20515ABB1D8E27130053B567 /* Project object */;
+}
